@@ -1,1 +1,45 @@
 /* Soluzione qui */
+
+/* TABLET > 768px */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    main {
+        padding: 50px;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    .recipe-name {
+        font-size: 2rem;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+        flex-basis: calc(100% / 3);
+    }
+    
+    .social-networks button {
+        padding: 10px 50px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .presentation img {
+        float: left;
+        margin-right: 20px;
+    }
+
+}

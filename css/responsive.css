@@ -1,6 +1,21 @@
 /* Soluzione qui */
 
-/* TABLET > 768px < 992px*/
+/* BONUS 576px to 768px */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+    .social-networks button {
+        padding: 10px 30px;
+    }
+
+    .presentation img {
+        float: left;
+        margin-right: 20px;
+    }
+
+}
+
+/* TABLET 768px to 992px*/
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
@@ -44,7 +59,7 @@
 
 }
 
-/* DESKTOP > 992px */
+/* DESKTOP over 992px */
 
 @media screen and (min-width: 992px) {
 
